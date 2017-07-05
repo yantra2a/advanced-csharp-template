@@ -14,5 +14,5 @@ projects:
     root: "/csharp-project"
     # Set the docker image. This image runs .Net Core tests using this syntax:
     # @[Code Editor Title]({"stubs": ["EditorFile1.cs", "EditorFile2.cs", ...], "command": "Namespace.MyClass.MyMethod"})
-    # More details here: https://github.com/CodinGame/dotnet-runner
+    # More details here: https://github.com/TechDotIO/dotnet-runner
     runner: techio/dotnet-runner:1.1.0-dotnet-1.1-sdk-msbuild
