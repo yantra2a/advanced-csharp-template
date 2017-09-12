@@ -1,18 +1,10 @@
-title : Advanced C# template
-
-# Table of content
+title: .NET Core C# Project
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
-
-
-# Settings for your programming projects and the associated Docker images
+- title: Welcome
+  statement: markdowns/welcome.md
 projects:
   csharp:
-    root: "/csharp-project"
-    # Set the docker image. This image runs .Net Core tests using this syntax:
-    # @[Code Editor Title]({"stubs": ["EditorFile1.cs", "EditorFile2.cs", ...], "command": "Namespace.MyClass.MyMethod"})
-    # More details here: https://github.com/TechDotIO/dotnet-runner
-    runner: techio/dotnet-runner:1.1.0-dotnet-1.1-sdk-msbuild
+    root: /csharp-project
+    runner:
+      name: techio/dotnet-runner
+      version: 1.1.0-dotnet-1.1-sdk-msbuild
